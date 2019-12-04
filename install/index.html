@@ -1,0 +1,45 @@
+<!DOCTYPE html>	
+
+<html>
+<head>
+<title>UVAdminPasswords</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="../css/contacto.css">
+<link rel="stylesheet" href="../css/estilos.css">
+<link rel="shortcut icon" href="../favicon.png">
+</head>
+
+<body>
+<div id="contenedor">
+<h1 class="centrado">Instalación UVAdminPasswords</h1>
+<h2 class="centrado">Gestor de contraseñas</h2>
+<div id="cuerpo">
+<form class="contacto" action="install.php" METHOD="post" name="formulario">
+<div>
+<label for="user_bd">Usuario Mysql/MariaDB</label>
+<input id="user_bd" type="text" name="user_bd"></input>
+</div>
+<div>
+<label for="pass_bd">Clave Mysql/MariaDB</label>
+<input id="pass_bd" type="password" name="pass_bd"></input>
+</div>
+<div>
+<label for="name_bd">Nombre de la base de datos</label>
+<input id="name_bd" type="text" name="name_bd"></input>
+</div>
+<div>
+<label for="pass_registration">Clave UVAdminPasswords</label>
+<input id="pass_registration" type="password" name="pass_registration"></input>
+</div>
+<div>
+<label for="pass_cifrado">Clave AES válida con la que se cifrará la base de datos</label>
+<input id="pass_cifrado" type="password" name="pass_cifrado"></input>
+</div>
+<div>
+<button type="submit" class="submit">¡Instalar!</button>
+</div>
+</form>
+</div>
+</div>
+</body>
+</html>
